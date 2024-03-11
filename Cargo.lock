@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "_2235_add_two_integers"
 version = "0.1.0"
+
+[[package]]
+name = "_2236_root_equals_sum_of_children"
+version = "0.1.0"

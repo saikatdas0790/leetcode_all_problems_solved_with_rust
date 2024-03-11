@@ -7,6 +7,10 @@ name = "_1480_running_sum_of_1d_array"
 version = "0.1.0"
 
 [[package]]
+name = "_1672_richest_customer_wealth"
+version = "0.1.0"
+
+[[package]]
 name = "_2235_add_two_integers"
 version = "0.1.0"
 

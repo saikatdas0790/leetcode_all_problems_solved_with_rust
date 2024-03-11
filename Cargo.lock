@@ -3,9 +3,17 @@
 version = 3
 
 [[package]]
+name = "_1480_running_sum_of_1d_array"
+version = "0.1.0"
+
+[[package]]
 name = "_2235_add_two_integers"
 version = "0.1.0"
 
 [[package]]
 name = "_2236_root_equals_sum_of_children"
+version = "0.1.0"
+
+[[package]]
+name = "_226_invert_binary_tree"
 version = "0.1.0"

@@ -6,6 +6,7 @@ pub struct ListNode {
 }
 
 impl ListNode {
+    #[allow(dead_code)]
     #[inline]
     fn new(val: i32) -> Self {
         ListNode { next: None, val }
@@ -58,7 +59,7 @@ mod tests {
         }));
         assert_eq!(Solution::middle_node(head), output);
 
-        let input = Some(Box::new(ListNode {
+        let head = Some(Box::new(ListNode {
             val: 1,
             next: Some(Box::new(ListNode {
                 val: 2,
@@ -81,6 +82,6 @@ mod tests {
                 next: Some(Box::new(ListNode { val: 6, next: None })),
             })),
         }));
-        assert_eq!(Solution::middle_node(input), output);
+        assert_eq!(Solution::middle_node(head), output);
     }
 }

@@ -29,3 +29,7 @@ version = "0.1.0"
 [[package]]
 name = "_412_fizz_buzz"
 version = "0.1.0"
+
+[[package]]
+name = "_876_middle_of_the_linked_list"
+version = "0.1.0"

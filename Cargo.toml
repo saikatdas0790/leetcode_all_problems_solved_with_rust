@@ -1,3 +1,3 @@
 [workspace]
 resolver = "2"
-members = [ "_1342_number_of_steps_to_reduce_a_number_to_zero", "_1480_running_sum_of_1d_array", "_1672_richest_customer_wealth","_2235_add_two_integers", "_2236_root_equals_sum_of_children", "_226_invert_binary_tree", "_412_fizz_buzz"]
+members = [ "_1342_number_of_steps_to_reduce_a_number_to_zero", "_1480_running_sum_of_1d_array", "_1672_richest_customer_wealth","_2235_add_two_integers", "_2236_root_equals_sum_of_children", "_226_invert_binary_tree", "_412_fizz_buzz", "_876_middle_of_the_linked_list"]

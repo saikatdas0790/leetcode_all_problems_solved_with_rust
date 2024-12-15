@@ -26,7 +26,7 @@ struct Solution;
 
 impl Solution {
     pub fn check_tree(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
-        root.map_or(true, |r| {
+        root.is_none_or(|r| {
             let root = r.borrow();
             let left = root.left.as_ref().map_or(0, |l| l.borrow().val);
             let right = root.right.as_ref().map_or(0, |r| r.borrow().val);
